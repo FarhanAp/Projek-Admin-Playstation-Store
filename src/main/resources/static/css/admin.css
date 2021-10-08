@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper-admin {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+/* H E A D I N G */
+.heading-admin {
+    text-align: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif ;
+    padding: 44px 0px 7px 0px;
+    font-family: auto;
+    font-size: 35px;
+}
+
+/* L O G I N */
+.bg-card-admin {
+    border: solid 5px rgb(191, 191, 253);
+    border-radius: 40px;
+    margin: 0px 25% 0px 25%;
+}
+
+.card-admin {
+    width: 100%;
+    display: grid;
+    margin: 20px 0px ;
+    align-items: center;
+}
+
+.login-admin {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 15px;
+}
+
+input[type=text], input[type=password] {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+  .loginbtn {
+    background-color:rgb(255, 220, 124);
+    color: black;
+    padding: 14px 20px;
+    margin: 10px 0px 30px 0px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 15px;
+  }
+
+  .loginbtn:hover {
+      background-color: #ffb8d3  ;
+
+  }
+
+  .cancelbtn {
+    background-color:rgb(255, 0, 0);
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 15px 25% 0px 25% ;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    border-radius: 15px;
+  }
+  .cancelbtn .cancelbtn-tulisan {
+    color: black;
+}
